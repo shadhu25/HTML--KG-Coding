@@ -1,0 +1,2 @@
+<html> -> The <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
+<head> -> The <head> element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
