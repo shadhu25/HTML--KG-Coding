@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+</head>
+<body>
+    <!-- 1. Create a page with all type of ordered list and one unordered list. -->
+    <ol type="1">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <ol type="a">
+            <li>level 1</li>
+            <li>level 2</li>
+            <li>level 3</li>
+        </ol>
+        <li>CSS</li>
+    </ol>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+
+    <!-- 2. Create a table with headings, captions and a few rows. One of heading should take at least 3 columns. -->
+    <table border="1">
+        <caption>Skills</caption>
+        <tr>
+            <td colspan="3" align="center">SitaRam</td>
+        </tr>
+        <tr>
+            <th>Language</th>
+            <th>Competency</th>
+            <th>Years</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>C++</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>3 years</td>
+            <td>2 years</td>
+            <td>1 year</td>
+        </tr>
+    </table><br><br>
+    <!-- 3. Create a contact me form with relevant details for your resume website. -->
+    <h1>RESUME</h1>
+        <form action="resume.php">
+            <label for="user-name" >Name: </label>
+        <input type="text" id="user-name" name="user-name" placeholder="name"><br><br>
+        <label for="color">Enter fav color: </label>
+        <input type="color" id="color" name="color"><br><br>
+        <label for="dob">DOB: </label>
+        <!-- Enter date after 2000-01-02 -->
+        <input type="date" id="dob" name="dob" min="2000-01-02"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br><br>
+        <strong>Skills:- </strong>
+        <label for="c">C</label>
+        <input type="checkbox" id="c" name="lang" value="C"> ||
+        <label for="c++">C++</label>
+        <input type="checkbox" id="c++" name="lang" value="C++"> ||
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="lang" value="Java"> ||
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="lang" value="Python"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="github">Github Profile Link: </label>
+        <input type="url" name="github" id="github"><br><br>
+        <label for="state">State: </label>
+        <select name="state" id="state">
+            <option value="Bihar">Bihar</option>
+            <option value="Utter Pradesh">Utter Pradesh</option>
+            <option value="Jharkhan">Jharkhand</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gujrat">Gujrat</option>
+        </select><br><br>
+        <label for="boi">Enter you Bio</label>
+        <textarea name="bio" id="bio" cols="25" rows="15" placeholder="write here...."></textarea><br><br>
+        <input type="submit">
+        </form><br><br>
+    <!-- 4. Use iFrame to add this video to your page. -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=ieaG0eaIyBCTcCQb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

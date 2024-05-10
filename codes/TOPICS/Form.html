@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Details</h1>
+    <form action="student-details.php">
+        <label for="user-name" >User Name: </label>
+        <input type="text" id="user-name" name="user-name" placeholder="email,phone"><br><br>
+        <label for="password">Pasword: </label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="color">Enter fav color: </label>
+        <input type="color" id="color" name="color"><br><br>
+        <label for="dob">DOB: </label>
+        <!-- Enter date after 2000-01-02 -->
+        <input type="date" id="dob" name="dob" min="2000-01-02"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br><br>
+        <strong>Skills:- </strong>
+        <label for="c">C</label>
+        <input type="checkbox" id="c" name="lang" value="C"> ||
+        <label for="c++">C++</label>
+        <input type="checkbox" id="c++" name="lang" value="C++"> ||
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" name="lang" value="Java"> ||
+        <label for="python">Python</label>
+        <input type="checkbox" id="python" name="lang" value="Python"><br><br>
+        <label for="date-time">Addmition Time: </label>
+        <input type="datetime-local" name="date-time" id="date-time"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="github">Github Profile Link: </label>
+        <input type="url" name="github" id="github"><br><br>
+        <label for="state">State: </label>
+        <select name="state" id="state">
+            <option value="Bihar">Bihar</option>
+            <option value="Utter Pradesh">Utter Pradesh</option>
+            <option value="Jharkhan">Jharkhand</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gujrat">Gujrat</option>
+        </select><br><br>
+        <label for="aadhar">Aadhar Card: </label>
+        <input type="file" id="aadhar" name="aadhar"><br><br>
+        <label for="month">Enter Month</label>
+        <input type="month" id="month" name="month"><br><br>
+        <label for="age">Age:  </label>
+        <input type="number" id="age" name="age" min="18" max="50"><br><br>
+        <label for="number">Mobile Number: </label>
+        <input type="tel" id="number" name="number" pattern="[0-9]{5}-[0-9]{5}" placeholder="99345-65435"><br><br>
+        <label for="range">Range: </label>
+        <input type="range" name="range" id="range" min="0" max="100"><br><br>
+        <label for="time">Entry Time: </label>
+        <input type="time" name="time" id="time"><br><br>
+        <label for="week">Enter Week: </label>
+        <input type="week" name="week" id="week"><br><br>
+        <label for="bio">Enter your Bio: </label>
+        <textarea name="bio" id="bio" cols="50" rows="10" placeholder="write here...."></textarea><br>
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+        <input type="reset">
+        <input type="submit"><br><br>
+        <input type="image" src="/codes/IMAGES/download.png" alt="Submit" width="48" height="48"><br>
+        <input type="search" name="" id=""><br><br>
+        <input type="hidden" id="hide"><br><br>
+        
+    </form>
+</body>
+</html>
