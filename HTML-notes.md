@@ -61,3 +61,39 @@
 **`Division` tag →** The **`div`** HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flex-box is applied to its parent element).
 
 `Span` tag → The **`span`** HTML element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the `class` or `id` attributes), or because they share attribute values, such as `lang`. It should be used only when no other semantic element is appropriate. `span` is very much like a `div` element, but `div` is a block-level element whereas a `span` is an inline-level element.
+
+`Emphasize` tag → The **`em`** HTML element marks text that has stress emphasis.
+
+**`mark` tag → T**he **`mark`** HTML element represents text which is **marked** or **highlighted** for reference or notation purposes due to the marked passage's relevance in the enclosing context.
+
+**`del` tag →** The **`del`** HTML element represents a range of text that has been deleted from a document.
+
+**`q` tag →** The **`q`** element represents some phrasing content quoted from another source.
+
+**`blockquote` tag →** The **`blockquote`** element represents some phrasing content quoted from another source. Specially for a paragraph.
+
+**`Abbribiation` tag →** The **`abbr`** element represents an abbreviation or acronym, optionally with its expansion. The title attribute may be used to provide an expansion of the abbreviation.
+
+**`cite` tag →** The **`cite`** element represents a reference to a creative work. It must include the title of the work or the name of the author(person, people or organization) or an URL reference, or a reference in abbreviated form as per the conventions used for the addition of citation metadata.
+
+**`bdo` tag →** The **`bdo`** element represents explicit text directionality formatting control for its children.
+
+**`address` tag →** The **`address`** element represents the contact information for its nearest article or body element ancestor.
+
+**`button` tag →** The **`button`** element represents a button labeled by its contents.
+
+### All codes of above tag  →
+
+[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html)
+
+### Attributes
+
+`title` →The `title` attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element. 
+
+`mailto` →Use `mailto` attribute inside the href attribute to create a link that opens the user's email program (to let them send a new email).
+
+`target` → The `target` attribute specifies where to open the linked document.
+
+### All codes of above attributes →
+
+[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html)
