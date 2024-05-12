@@ -4,27 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+        #table2 ,.x{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        #table1 ,.y{
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .y{
+            border-style:dashed ;
+        }
+        #table3{
+            border-spacing: 10px;
+        }
+        .z{
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        #table4,.m {
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+        .m {
+            background-color: #96d4d4;
+        }
+        #table5,.k{
+            border: 1.5px solid black;
+            border-collapse: collapse;
+        }
+        .k{
+            padding: 1px 15px 1px 15px;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table id="table1">
         <caption>Skills</caption>
         <tr>
-            <td colspan="3" align="center">SitaRam</td>
+            <td class="y" colspan="3">SitaRam</td>
         </tr>
         <tr>
-            <th>Language</th>
-            <th>Competency</th>
-            <th>Years</th>
+            <th class="y">Language</th>
+            <th class="y">Competency</th>
+            <th class="y">Years</th>
         </tr>
         <tr>
-            <td>C</td>
-            <td>C++</td>
-            <td>Java</td>
+            <td class="y">C</td>
+            <td class="y">C++</td>
+            <td class="y">Java</td>
         </tr>
         <tr>
-            <td>3 years</td>
-            <td>2 years</td>
-            <td>1 year</td>
+            <td class="y">3 years</td>
+            <td class="y">2 years</td>
+            <td class="y">1 year</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="table2">
+        <caption>Skills</caption>
+        <tr>
+            <td class="x">SitaRam</td>
+        </tr>
+        <tr>
+            <th class="x">Language</th>
+            <th class="x">Competency</th>
+            <th class="x">Years</th>
+        </tr>
+        <tr>
+            <td class="x">C</td>
+            <td class="x">C++</td>
+            <td class="x">Java</td>
+        </tr>
+        <tr>
+            <td class="x">3 years</td>
+            <td class="x">2 years</td>
+            <td class="x">1 year</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="table3">
+        <caption>Skills</caption>
+        <tr>
+            <td class="z" colspan="3">SitaRam</td>
+        </tr>
+        <tr>
+            <th class="z">Language</th>
+            <th class="z">Competency</th>
+            <th class="z">Years</th>
+        </tr>
+        <tr>
+            <td class="z">C</td>
+            <td class="z">C++</td>
+            <td class="z">Java</td>
+        </tr>
+        <tr>
+            <td class="z">3 years</td>
+            <td class="z">2 years</td>
+            <td class="z">1 year</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="table4">
+        <caption>Skills</caption>
+        <tr>
+            <td class="m" colspan="3">SitaRam</td>
+        </tr>
+        <tr>
+            <th class="m">Language</th>
+            <th class="m">Competency</th>
+            <th class="m">Years</th>
+        </tr>
+        <tr>
+            <td class="m">C</td>
+            <td class="m">C++</td>
+            <td class="m">Java</td>
+        </tr>
+        <tr>
+            <td class="m">3 years</td>
+            <td class="m">2 years</td>
+            <td class="m">1 year</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="table5">
+        <tr>
+            <th class="k"></th>
+            <th class="k">MON</th>
+            <th class="k">TUE</th>
+            <th class="k">WED</th>
+            <th class="k">THU</th>
+            <th class="k">FRI</th>
+        </tr>
+        <tr>
+            <td class="k">8:00</td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+        </tr>
+        <tr>
+            <td class="k">9:00</td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+        </tr>
+        <tr>
+            <td class="k">10:00</td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+        </tr>
+        <tr>
+            <td class="k">11:00</td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+        </tr>
+        <tr>
+            <td class="k">12:00</td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
+            <td class="k"></td>
         </tr>
     </table>
 </body>
