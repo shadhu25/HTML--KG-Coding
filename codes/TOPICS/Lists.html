@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTS</title>
+    <style>
+        #navbar {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            background-color: #333333;
+            overflow: hidden;
+        }
+        #navbar li a {
+            display: block;
+            text-align: center;
+            padding: 10px 10px 10px 10px;
+            text-decoration: none;
+            color: white;
+        }
+        #navbar li {
+            float: left;
+        }
+        #navbar li a:hover {
+            background-color: #111111;
+        }
+    </style>
 </head>
 <body>
     <!-- Ordered List -->
@@ -19,13 +41,40 @@
         </ol>
         <li>CSS</li>
     </ol>
+    <!-- Control List Counting -->
+    <ol start="50">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <ol type="a">
+            <li>level 1</li>
+            <li>level 2</li>
+            <li>level 3</li>
+        </ol>
+        <li>CSS</li>
+    </ol>
     <!-- Unodered List -->
-    <ul>
+    <ul style="list-style-type: circle;">
         <li>C</li>
         <li>C++</li>
         <li>Java</li>
         <li>HTML</li>
         <li>CSS</li>
+    </ul>
+    <!-- Description List -->
+    <dl>
+        <dt>Cofee</dt>
+        <dd> black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>white cold drink</dd>
+    </dl>
+    <!-- navbar -->
+    <ul id="navbar">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#about">ABOUT</a></li>
     </ul>
 </body>
 </html>
