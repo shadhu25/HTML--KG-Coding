@@ -6,6 +6,7 @@
     <title>Table</title>
     <style>
         #table2 ,.x{
+            padding: 10px;
             border: 2px solid black;
             border-collapse: collapse;
         }
@@ -37,10 +38,24 @@
         .k{
             padding: 1px 15px 1px 15px;
         }
+        #table5 tr:nth-child(even) {
+            background-color: #96d4d4;
+        }
+        #table5 td:nth-child(even), #table5 th:nth-child(even) {
+            background-color: #96d4d4;
+        }
+        #table5 tr:hover {
+            background-color: white;
+        }
     </style>
 </head>
 <body>
     <table id="table1">
+        <colgroup>
+            <col span="1" style="background-color: #96d4d4;">
+            <col span="1" style="visibility: collapse;">
+            <col span="1" style="background-color: pink;">
+        </colgroup>
         <caption>Skills</caption>
         <tr>
             <td class="y" colspan="3">SitaRam</td>
