@@ -84,7 +84,104 @@
 
 ### All codes of above tag  →
 
-[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html)
+[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/HTML-tags.html)
+
+**`picture` tag →** The **`picture`** HTML element contains zero or more **`source`** elements and one **`img`** element to offer alternative versions of an image for different display/device scenarios.
+
+```html
+<!-- Using picture tag -->
+    <div style="width: 1920px; height: 1080px; border: 5px solid black;">
+        <picture>
+        <source media="(min-width: 650px)" srcset="/codes/IMAGES/2407074.jpg">
+        <source media="(min-width: 465px)" srcset="/codes/IMAGES/IMG_20230818_112347.jpg">
+        <img src="/codes/IMAGES/download.png" alt="small image">
+        </picture>
+    </div>
+```
+
+**`map` tag →** The **`<map>`** HTML element is used with **`area`** elements to define an image map (a clickable link area).
+
+```html
+<!-- Using image map -->
+    <img usemap="#card" src="/codes/IMAGES/IMG_20230818_112347.jpg" alt="Aadhar card">
+    <map name="card">
+        <area target="_blank" alt="Aadhar card" title="Download Aadhar card" href="https://uidai.gov.in/" coords="388,536,108,239" shape="rect"></area>
+        <area target="_blank" alt="QR code" title="QR code" href="https://en.wikipedia.org/wiki/QR_code" coords="780,408,971,592" shape="rect"></area>
+    </map>
+    <!-- URL for cordinate generator -> https://www.fla-shop.com/image-map/ -->
+```
+
+**`table` tag →** The **`table`** HTML element represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+
+- **`caption` tag → The `caption` element represents the title of the table that is its parent, if it has a parent and that is a table element.**
+- **`td` tag →The `td` element represents a data cell in a table.**
+- **`th`  tag →The `th` element represents a header cell in a table.**
+- **`tr`  tag → The `tr` element represents a row of cells in a table.**
+- `colgroup`  tag → The `colgroup` element is used to style specific columns of a table. Each group is specified with a `col` element. The `span` attribute specifies how many columns that get the style. The `style` attribute specifies the style to give the columns.
+
+### code →
+
+[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/Table.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/Table.html)
+
+`ol`  tag →The ol element represents a list of items, where the items have been intentionally ordered, such that changing the order would change the meaning of the document.
+
+- `li`  tag→ The li element represents a list item.
+- `type`  attribute → Indicates the numbering type: <br> `'a'` indicates lowercase letters, <br> `'A'` indicates uppercase letters, <br> `'i'` indicates lowercase Roman numerals, <br> `'I'` indicates uppercase Roman numerals, <br> and `'1'` indicates numbers (default).
+- `start`  attribute →If you want to start counting from a specified number, you can use the `start` attribute.
+
+```html
+<!-- Ordered List -->
+    <ol type="1">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <ol type="a">
+            <li>level 1</li>
+            <li>level 2</li>
+            <li>level 3</li>
+        </ol>
+        <li>CSS</li>
+    </ol>
+    <!-- Control List Counting -->
+    <ol start="50">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <ol type="a">
+            <li>level 1</li>
+            <li>level 2</li>
+            <li>level 3</li>
+        </ol>
+        <li>CSS</li>
+    </ol>
+```
+
+`ul`  tag → The ul element represents a list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the document. we can change list style by `tstyle = "list-style-type: circle;` .
+
+```html
+<!-- Unodered List -->
+    <ul style="list-style-type: circle;">
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+```
+
+`dl`  tag → The dl element represents an association list consisting of zero or more name-value groups (a description list). A name-value group consists of one or more names (`dt` elements) followed by one or more values (`dd` elements).
+
+```html
+<!-- Description List -->
+    <dl>
+        <dt>Cofee</dt>
+        <dd> black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>white cold drink</dd>
+    </dl>
+```
 
 ### Attributes
 
@@ -96,4 +193,4 @@
 
 ### All codes of above attributes →
 
-[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/HTML-tags.html)
+[https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/HTML-tags.html](https://github.com/shadhu25/HTML--KG-Coding/blob/main/codes/TOPICS/HTML-tags.html)
