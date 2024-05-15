@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script Tag</title>
+    <style>
+        img {
+            height: 500px;
+            width: 800px;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <p id="mad"></p>
+    <button type="button" onclick="answer2()">style the above sentance</button>
+    <P id="papa">hey, Will you marry me?</P>
+    <button type="button" onclick="answer()">answer</button>
+    <P id="mama">hey, Will you marry me?</P>
+    <button type="button" onclick="answer1(0)">for -> no</button>
+    <button type="button" onclick="answer1(1)">for -> yes</button><br><br>
+    <img id="on" src="/codes/IMAGES/2407074.jpg"><br><br>
+    <button type="button" onclick="answer3()">change the image</button>
+    <!-- it only will be desplayed, if javascript does'nt support -->
+    <noscript>Your browser does'nt support javascript</noscript>
+    <script>
+        // inserting content in an element
+        document.getElementById("mad").innerHTML="my first javascrirt code";
+        // inserting content in an element by clicking a button
+        function answer(){
+            document.getElementById("papa").innerHTML="yes.....";
+        }
+        // inserting content in an element by clicking a button using conditions
+        function answer1(m){
+            var reply;
+            if(m==0)
+                reply="no.....";
+            else
+                reply="yes.....";
+            document.getElementById("mama").innerHTML=reply;
+        }
+        // styling an element 
+        function answer2(){
+            document.getElementById("mad").style.backgroundColor = "orange";
+            document.getElementById("mad").style.fontSize = "25px";
+            document.getElementById("mad").style.color = "yellow";
+        }
+        // changing image of an element
+        function answer3(){
+            document.getElementById("on").src = "/codes/IMAGES/IMG_20230818_112347.jpg";
+        }
+    </script>
+</body>
+</html>
